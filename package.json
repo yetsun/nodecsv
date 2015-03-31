@@ -1,0 +1,19 @@
+{
+  "name": "nodecsv",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jun Ye <yetsun@gmail.com> (https://github.com/yetsun)",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "should": "^5.2.0"
+  },
+  "dependencies": {
+    "csv-parse": "^0.1.0",
+    "csv-stringify": "0.0.6"
+  }
+}
