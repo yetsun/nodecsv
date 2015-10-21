@@ -50,3 +50,5 @@ appendCSV('./output.csv', [ [ '1', ' 2', ' 3' ], [ '4', ' 5', ' 6' ] ], function
   console.log(error);
 });
 ```
+appendCSVSync: the sync version of appendCSV
+

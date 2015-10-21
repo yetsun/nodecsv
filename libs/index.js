@@ -3,5 +3,6 @@
 module.exports = {
   readCSV: require('./readCSV'),
   writeCSV: require('./writeCSV'),
-  appendCSV: require('./appendCSV')
+  appendCSV: require('./appendCSV'),
+  appendCSVSync: require('./appendCSVSync')
 };
