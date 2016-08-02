@@ -3,7 +3,7 @@
 var stringify = require('csv-stringify');
 var fs = require('fs');
 
-var appendCSV = function(data, path, callback){
+var appendCSV = function(path, data, callback){
 
   stringify(data, function(error, output){
 
